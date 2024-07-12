@@ -1,0 +1,16 @@
+dn: cn=GRP1,dc=oficinas,dc=com
+cn: GRP1
+objectclass: top
+objectclass: groupOfNames
+ou: Groups
+member: cn=USU01,dc=world,dc=com
+member: cn=USU02,dc=world,dc=com
+member: cn=USU03,dc=world,dc=com
+
+dn: cn=GRP2,dc=oficinas,dc=com
+cn: GRP2
+objectclass: top
+objectclass: groupOfNames
+ou: Groups
+member: cn=USU01,dc=world,dc=com
+member: cn=USU04,dc=world,dc=com
