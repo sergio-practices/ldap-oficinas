@@ -38,9 +38,9 @@ nano /ldifs/all.ldif
 ```
 ldapadd -x -H ldap://localhost:1389 -D "cn=admin1,dc=oficinas,dc=com" -W -f /ldifs/all.ldif
 ```
-<p>Remember admin password adminpassword1</p>
+<p>Remember admin password: adminpassword1</p>
 
-<p>You can check the LDAP tree using commands or programs like JXplorer</p>
+<p>You can check the LDAP tree using commands or programs like Apache Directory Stucio</p>
 <p>Now that your LDAP server is running you can run SpringBootOficinasApplication.java at make calls to search users in groups using http calls to the controller<p>
 
 ```
